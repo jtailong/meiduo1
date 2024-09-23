@@ -111,3 +111,5 @@ WARNING 2024-09-23 02:02:43,569 log 232242 133739120166592 Not Found: /carts/sim
 WARNING 2024-09-23 02:02:43,569 basehttp 232242 133739120166592 "GET /carts/simple/ HTTP/1.1" 404 2372
 WARNING 2024-09-23 02:04:02,433 log 232242 133739038377664 Not Found: /carts/simple/
 WARNING 2024-09-23 02:04:02,433 basehttp 232242 133739038377664 "GET /carts/simple/ HTTP/1.1" 404 2372
+INFO 2024-09-23 02:36:51,567 autoreload 232242 133739204878464 /home/jing/Desktop/meiduo1/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2024-09-23 02:36:51,747 autoreload 233830 129593016631424 Watching for file changes with StatReloader
