@@ -22,3 +22,92 @@ INFO 2024-09-23 01:15:21,578 urls 230808 131159811950272 user login
 WARNING 2024-09-23 01:15:21,578 urls 230808 131159811950272 redis warning
 ERROR 2024-09-23 01:15:21,578 urls 230808 131159811950272 not exist
 INFO 2024-09-23 01:15:21,579 basehttp 230808 131159811950272 "GET /log/ HTTP/1.1" 200 3
+INFO 2024-09-23 01:34:06,938 autoreload 231546 128479090516096 Watching for file changes with StatReloader
+ERROR 2024-09-23 01:44:22,107 exception 231546 128479026742976 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/jing/p312/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2024-09-23 01:44:22,125 log 231546 128479026742976 Bad Request: /log/
+WARNING 2024-09-23 01:44:22,125 basehttp 231546 128479026742976 "GET /log/ HTTP/1.1" 400 75045
+ERROR 2024-09-23 01:44:22,257 exception 231546 128479026742976 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/jing/p312/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2024-09-23 01:44:22,264 log 231546 128479026742976 Bad Request: /favicon.ico
+WARNING 2024-09-23 01:44:22,264 basehttp 231546 128479026742976 "GET /favicon.ico HTTP/1.1" 400 74994
+INFO 2024-09-23 01:52:49,265 autoreload 231546 128479090516096 /home/jing/Desktop/meiduo1/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2024-09-23 01:52:49,565 autoreload 232063 140132721508480 Watching for file changes with StatReloader
+INFO 2024-09-23 01:52:50,849 urls 232063 140132657137344 user login
+WARNING 2024-09-23 01:52:50,849 urls 232063 140132657137344 redis warning
+ERROR 2024-09-23 01:52:50,849 urls 232063 140132657137344 not exist
+INFO 2024-09-23 01:52:50,850 basehttp 232063 140132657137344 "GET /log/ HTTP/1.1" 200 3
+INFO 2024-09-23 01:53:40,907 autoreload 232063 140132721508480 /home/jing/Desktop/meiduo1/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2024-09-23 01:53:41,071 autoreload 232227 138663131340928 Watching for file changes with StatReloader
+ERROR 2024-09-23 01:53:42,273 exception 232227 138663067387584 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/jing/p312/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2024-09-23 01:53:42,285 log 232227 138663067387584 Bad Request: /log/
+WARNING 2024-09-23 01:53:42,285 basehttp 232227 138663067387584 "GET /log/ HTTP/1.1" 400 75123
+ERROR 2024-09-23 01:53:43,494 exception 232227 138663067387584 Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/jing/p312/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/jing/p312/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.meiduo.site:8000'. You may need to add 'www.meiduo.site' to ALLOWED_HOSTS.
+WARNING 2024-09-23 01:53:43,502 log 232227 138663067387584 Bad Request: /log/
+WARNING 2024-09-23 01:53:43,503 basehttp 232227 138663067387584 "GET /log/ HTTP/1.1" 400 75123
+INFO 2024-09-23 01:53:50,246 autoreload 232227 138663131340928 /home/jing/Desktop/meiduo1/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2024-09-23 01:53:50,405 autoreload 232237 130359227519104 Watching for file changes with StatReloader
+INFO 2024-09-23 01:53:53,525 autoreload 232237 130359227519104 /home/jing/Desktop/meiduo1/meiduo_mall/meiduo_mall/settings.py changed, reloading.
+INFO 2024-09-23 01:53:53,699 autoreload 232242 133739204878464 Watching for file changes with StatReloader
+INFO 2024-09-23 01:53:55,882 urls 232242 133739141138112 user login
+WARNING 2024-09-23 01:53:55,882 urls 232242 133739141138112 redis warning
+ERROR 2024-09-23 01:53:55,882 urls 232242 133739141138112 not exist
+INFO 2024-09-23 01:53:55,882 basehttp 232242 133739141138112 "GET /log/ HTTP/1.1" 200 3
+WARNING 2024-09-23 02:02:14,443 log 232242 133739141138112 Not Found: /
+WARNING 2024-09-23 02:02:14,444 basehttp 232242 133739141138112 "GET / HTTP/1.1" 404 2309
+WARNING 2024-09-23 02:02:19,743 log 232242 133739130652352 Not Found: /carts/simple/
+WARNING 2024-09-23 02:02:19,743 basehttp 232242 133739130652352 "GET /carts/simple/ HTTP/1.1" 404 2372
+WARNING 2024-09-23 02:02:43,569 log 232242 133739120166592 Not Found: /carts/simple/
+WARNING 2024-09-23 02:02:43,569 basehttp 232242 133739120166592 "GET /carts/simple/ HTTP/1.1" 404 2372
+WARNING 2024-09-23 02:04:02,433 log 232242 133739038377664 Not Found: /carts/simple/
+WARNING 2024-09-23 02:04:02,433 basehttp 232242 133739038377664 "GET /carts/simple/ HTTP/1.1" 404 2372
